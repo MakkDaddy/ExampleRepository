@@ -1,16 +1,21 @@
 package gitTesting;
 
 public class Example {
-	int a = 1;
-	int b = 2;
+	double a = 2;
+	double b = 3;
 
-	public int add() {
-		int c = a + b;
+	public double add() {
+		double c = a + b;
 		return c;
 	}
 	
-	public int subtract() {
-		int c = a - b;
+	public double subtract() {
+		double c = a - b;
+		return c;
+	}
+	
+	public double multiply() {
+		double c = a * b;
 		return c;
 	}
 }

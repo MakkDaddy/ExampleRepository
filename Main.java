@@ -6,11 +6,21 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Example tempExample = new Example();
-		int testInt = tempExample.add();
 		
+		double test = tempExample.add();		
 		System.out.println(
 				"The add method of tempExample returned the following value: "
-				+ testInt);
+				+ test);
+		
+		test = tempExample.subtract();		
+		System.out.println(
+				"The subtract method of tempExample returned the following value: "
+				+ test);
+		
+		test = tempExample.multiply();		
+		System.out.println(
+				"The multiply method of tempExample returned the following value: "
+				+ test);
 	}
 
 }
