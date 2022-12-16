@@ -18,4 +18,9 @@ public class Example {
 		double c = a * b;
 		return c;
 	}
+	
+	public double divide() {
+		double c = a * b;
+		return c;
+	}
 }

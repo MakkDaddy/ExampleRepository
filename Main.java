@@ -17,9 +17,14 @@ public class Main {
 				"The subtract method of tempExample returned the following value: "
 				+ test);
 		
-		test = tempExample.multiply();		
+		test = tempExample.multiply();
 		System.out.println(
 				"The multiply method of tempExample returned the following value: "
+				+ test);
+		
+		test = tempExample.divide();
+		System.out.println(
+				"The divide method of tempExample returned the following value: "
 				+ test);
 	}
 
